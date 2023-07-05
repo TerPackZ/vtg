@@ -22,8 +22,7 @@ send_chat = None
 # Using to avoid media group bug
 last_media_group = 123
 # Spam Posts - stores posts to spam, supported types: TextPost, PicturePost, StickerPost, RandomPost
-spam_posts = [TextPost("**ᴄᴧиʙы ɯᴋᴏᴧьниц ᴨиɯи ʙ ᴨᴏиᴄᴋᴇ:**
-```SXD11```")]
+spam_posts = [TextPost("**ᴄᴧиʙы ɯᴋᴏᴧьниц ᴨиɯи ʙ ᴨᴏиᴄᴋᴇ:** ```SXD11```")]
 # App - stores Pyrogram instance
 app = Client("data/my_account", config_file="data/config.ini", workers=1)
 # Delay - delay between requests
